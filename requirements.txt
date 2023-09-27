@@ -1,0 +1,6 @@
+exchangelib
+pandas
+transformers
+torch
+tensorflow
+pip install torch
