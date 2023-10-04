@@ -3,4 +3,5 @@ pandas
 transformers
 torch
 tensorflow
-pip install torch
+Flask
+pip install Flask

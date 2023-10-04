@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Data Retrieval</title>
+</head>
+<body>
+    <h1>Email Data Retrieval</h1>
+    <form method="POST" action="/process">
+        <label for="user">User:</label>
+        <input type="text" id="user" name="user" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="start_date">Start Date:</label>
+        <input type="date" id="start_date" name="start_date" required><br><br>
+
+        <label for="end_date">End Date:</label>
+        <input type="date" id="end_date" name="end_date" required><br><br>
+
+        <input type="submit" value="Process and Download">
+    </form>
+</body>
+</html>
